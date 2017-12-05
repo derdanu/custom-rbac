@@ -1,0 +1,1 @@
+New-AzureRMRoleDefinition -InputFile ".\vmstartstop-noinsights.json"
