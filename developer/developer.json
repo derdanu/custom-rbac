@@ -1,0 +1,24 @@
+{
+    "Name": "Developer",
+    "IsCustom": true,
+    "Description": "Can read everything. Create and Manage Resource Groups, VM and SQL DB",
+    "Actions": [
+      "*/read",
+      "Microsoft.Resources/deployments/*",
+      "Microsoft.Resources/subscriptions/resourceGroups/*",
+      "Microsoft.Network/*",
+      "Microsoft.Storage/*",      
+      "Microsoft.Compute/*",
+      "Microsoft.DevTestLab/*",
+      "Microsoft.RecoveryServices/*",
+      "Microsoft.Insights/*", 
+      "Microsoft.Sql/*",   
+      "Microsoft.Support/*",      
+    ],
+    "NotActions": [
+  
+    ],
+    "AssignableScopes": [
+      "/subscriptions/aad99292-3dcb-42fa-950e-ceca6b6c4391"
+    ]
+  }
